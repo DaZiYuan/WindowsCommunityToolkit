@@ -36,11 +36,10 @@ For every contribution, you must:
 * target master branch (or an appropriate release branch if appropriate for a bug fix)
 
 * If adding a new feature
-    * Before starting coding, **you should open an uservoice entry** under "Windows Community Toolkit" on [Uservoice](https://wpdev.uservoice.com/forums/110705-universal-windows-platform/category/193402-uwp-community-toolkit) and start discussing with the community to see if your idea/feature is interesting enough.
+    * Before starting coding, **you should open an [issue](https://github.com/windows-toolkit/WindowsCommunityToolkit/issues/new?assignees=&labels=feature+request+%3Amailbox_with_mail%3A&template=feature_request.md&title=%5BFeature%5D)** and start discussing with the community to see if your idea/feature is interesting enough.
     * Add or update a sample for the [Sample app](https://github.com/windows-toolkit/WindowsCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp)
         * If creating a new sample, create a new icon by following the [Thumbnail Style Guide and templates](https://github.com/Microsoft/UWPCommunityToolkit-design-assets)
     * Add or update unit tests (if applicable)
-
 
 PR has to be validated by at least two core members before being merged.
 
@@ -48,7 +47,7 @@ Once merged, you can get a pre-release package of the toolkit by adding this ([N
 
 ### <a name="docs"></a> Adding Documentation
 
-Documentation is **required** when adding, removing, or updating a control or an API. To update the documentation, you must submit a seperate Pull Request in the [documentation repository](https://github.com/MicrosoftDocs/WindowsCommunityToolkitDocs) (use the *master* branch). **Both Pull Requests (code and docs) must be approved by the core team before either one is merged.**
+Documentation is **required** when adding, removing, or updating a control or an API. To update the documentation, you must submit a separate Pull Request in the [documentation repository](https://github.com/MicrosoftDocs/WindowsCommunityToolkitDocs) (use the *master* branch). **Both Pull Requests (code and docs) must be approved by the core team before either one is merged.**
 
 Make sure to update both Pull Requests with a link to each other.
 
@@ -83,7 +82,7 @@ This is to help as part of our effort to build an accessible toolkit (starting w
 * DO declare static dependency properties at the top of their file.
 * DO NOT seal controls.
 * DO use extension methods over static methods where possible.
-* DO NOT return true or false to give sucess status. Throw exceptions if there was a failure.
+* DO NOT return true or false to give success status. Throw exceptions if there was a failure.
 * DO use verbs like GET.
 * DO NOT use verbs that are not already used like fetch.
 
